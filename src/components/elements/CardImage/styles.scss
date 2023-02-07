@@ -1,0 +1,134 @@
+.card-image {
+  margin: 0px 15px;
+}
+
+.card-image .item .thumb {
+  position: relative;
+}
+
+.card-image .item .thumb:hover .hover-effect {
+  bottom: 30px;
+}
+
+.card-image .item .thumb:hover img {
+  opacity: 0.7;
+}
+
+.card-image .item .hover-effect {
+  position: absolute;
+  background-image: url(../images/hover-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s;
+  bottom: -240px;
+  right: 30px;
+  width: 239px;
+  height: 210px;
+}
+
+.card-image .item .hover-effect .inner-content {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  text-align: right;
+}
+
+.card-image .item .hover-effect .inner-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.card-image .item .hover-effect .inner-content span {
+  font-size: 15px;
+  color: #fff;
+}
+
+.card-image .item .thumb img {
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.owl-portfolio .owl-nav {
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
+
+.owl-portfolio .owl-nav .owl-prev {
+  position: absolute;
+  left: 25px;
+}
+
+.owl-portfolio .owl-nav .owl-next {
+  position: absolute;
+  right: 30px;
+}
+
+.owl-portfolio .owl-nav .owl-prev span {
+  color: transparent;
+}
+
+.owl-portfolio .owl-nav .owl-prev span:hover::after {
+  opacity: 1;
+}
+
+.owl-portfolio .owl-nav .owl-prev span:after {
+  width: 46px;
+  height: 46px;
+  background-color: $primary;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  color: #fff;
+  content: "\f104";
+  font-size: 22px;
+  font-family: "FontAwesome";
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+
+.owl-portfolio .owl-nav .owl-next span {
+  color: transparent;
+}
+
+.owl-portfolio .owl-nav .owl-next span:hover::after {
+  opacity: 1;
+}
+
+.owl-portfolio .owl-nav .owl-next span:after {
+  width: 46px;
+  height: 46px;
+  background-color: $primary;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  color: #fff;
+  content: "\f105";
+  font-size: 22px;
+  font-family: "FontAwesome";
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+
+.owl-portfolio .owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-portfolio .owl-dots .owl-dot {
+  width: 6px;
+  height: 6px;
+  background-color: $primary;
+  border-radius: 50%;
+  opacity: 0.3;
+  margin: 0px 5px;
+}
+
+.owl-portfolio .owl-dots .active {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
